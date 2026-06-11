@@ -32,11 +32,12 @@ function App() {
   return (
     <div className="app-wrapper">
       <header className="topbar">
-        <div className="brand">Joseena</div>
+        <div className="brand"> Hi ,I'm Joseena Joy</div>
         <nav className="nav-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#certificates">Certificates</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -111,7 +112,7 @@ function App() {
       <section id="projects" className="section projects-section">
         <div className="section-head">
           <span>Work</span>
-          <h2>Selected projects I�m proud of</h2>
+          <h2>Selected projects I'm proud of</h2>
         </div>
         <div className="project-grid">
           {projects.map((project) => (
@@ -135,10 +136,82 @@ function App() {
         </div>
       </section>
 
+      <section id="certificates" className="section certificates-section glass-panel">
+        <div className="section-head">
+          <span>Certificates</span>
+          <h2> certifications</h2>
+        </div>
+        <div className="cert-grid">
+          <article className="cert-card">
+            <h3>Website UI/UX Designing using ChatGPT</h3>
+            <p className="cert-meta">Simplilearn • 2025</p>
+            <p>Designed modern, user-friendly website interfaces using ChatGPT-assisted workflows, focusing on responsive layouts and intuitive UX.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-a-uiux-designing-using-chatgpt-ugcPost-7457021715445981184-_-WS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3>Data Analysis with Python</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Comprehensive course covering data analysis techniques and tools using Python.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-ibm-data-analysis-with-python-ugcPost-7455856194503761920-3b0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3>Introduction to Prompt Engineering </h3>
+            <p className="cert-meta">Simplilearn• 2025</p>
+            <p>Completed a foundational course in Prompt Engineering, learning how to
+design effective prompts for AI models and optimize AI-generated outputs
+for real-world applications.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-introduction-to-prompt-engineering-ugcPost-7455856194503761920-3b0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3>Data Privacy Fundamentals</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Completed a course covering data privacy principles, secure data handling,
+privacy regulations, and best practices for protecting sensitive information.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_ive-just-completed-the-data-privacy-fundamentals-ugcPost-7398711079062663169-2kWt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+        
+        <article className="cert-card">
+            <h3>Data Science Methodology</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Completed a course on the data science lifecycle, covering problem
+identification, data analysis, model building, evaluation, and
+data-driven decision-making.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-ibm-data-science-methodology-ugcPost-7455856194503761920-3b0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3> Data Science Tools</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Completed a course covering essential data science tools, including
+programming environments, data analysis platforms, visualization tools,
+and version control systems used in real-world projects.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_proud-to-earn-ibm-data-science-tools-certification-ugcPost-7398708967201402881-WCtq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3>Data Science 101</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Built a foundational understanding of data science concepts, including data analysis, visualization, machine learning basics, and data-driven decision-making.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-ibm-data-science-101-ugcPost-7455856194503761920-3b0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+          <article className="cert-card">
+            <h3>Introduction to Open Source</h3>
+            <p className="cert-meta">IBM • 2025</p>
+            <p>Completed a course introducing the concepts and practices of open source software development.</p>
+            <a href="https://www.linkedin.com/posts/joseena-joy-290b72372_completed-ibm-introduction-to-open-source-ugcPost-7455856194503761920-3b0P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxdagwBqqFQGli3mZUtc-URjlBXRJujD2k" target="_blank" rel="noreferrer" className="project-link">View Certificate</a>
+          </article>
+
+        </div>
+      </section>
+
       <section id="contact" className="section contact-section glass-panel">
         <div className="section-head">
           <span>Contact</span>
-          <h2>Let�s bring your next idea to life.</h2>
+          <h2>Let bring your next idea to life.</h2>
         </div>
         <div className="contact-grid">
           <div className="contact-card">
@@ -166,8 +239,9 @@ function App() {
         </div>
       </section>
 
+
       <footer className="site-footer">
-        <p>� 2026 Joseena Joy. Built with React.</p>
+        <p>2026 Joseena Joy. Built with React.</p>
       </footer>
     </div>
   );
